@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/RomanCelebrities/static/css/main.82cf8973.chunk.css",
+    "main.js": "/RomanCelebrities/static/js/main.590b4fd5.chunk.js",
+    "main.js.map": "/RomanCelebrities/static/js/main.590b4fd5.chunk.js.map",
+    "runtime-main.js": "/RomanCelebrities/static/js/runtime-main.d97e910f.js",
+    "runtime-main.js.map": "/RomanCelebrities/static/js/runtime-main.d97e910f.js.map",
+    "static/js/2.9ab4bbfd.chunk.js": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js",
+    "static/js/2.9ab4bbfd.chunk.js.map": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js.map",
+    "index.html": "/RomanCelebrities/index.html",
+    "precache-manifest.2d2b098177071f8dcc0191c0bfee0462.js": "/RomanCelebrities/precache-manifest.2d2b098177071f8dcc0191c0bfee0462.js",
+    "service-worker.js": "/RomanCelebrities/service-worker.js",
+    "static/css/main.82cf8973.chunk.css.map": "/RomanCelebrities/static/css/main.82cf8973.chunk.css.map",
+    "static/js/2.9ab4bbfd.chunk.js.LICENSE.txt": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/RomanCelebrities/static/media/papyrus.23918ba2.png",
+    "static/media/antoninus_pius.png": "/RomanCelebrities/static/media/antoninus_pius.97f30d3b.png",
+    "static/media/carcalla.png": "/RomanCelebrities/static/media/carcalla.5c43258f.png",
+    "static/media/julius_caesar.png": "/RomanCelebrities/static/media/julius_caesar.e605b6ca.png",
+    "static/media/marcus_aurelius.png": "/RomanCelebrities/static/media/marcus_aurelius.fa81d08d.png",
+    "static/media/marcus_cicero.png": "/RomanCelebrities/static/media/marcus_cicero.0287ab6a.png",
+    "static/media/marcus_traianus.png": "/RomanCelebrities/static/media/marcus_traianus.6c92a2ed.png",
+    "static/media/octavius_augustus.png": "/RomanCelebrities/static/media/octavius_augustus.545d4c2a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d97e910f.js",
+    "static/js/2.9ab4bbfd.chunk.js",
+    "static/css/main.82cf8973.chunk.css",
+    "static/js/main.590b4fd5.chunk.js"
+  ]
+}
