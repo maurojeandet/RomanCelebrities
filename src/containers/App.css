@@ -39,7 +39,7 @@ code {
 }
 
 .roman-card {
-	background-image: url(./images/papyrus.png);
+	background-image: url(../images/papyrus.png);
 	border-radius: 2em;
 	transition: all 500ms;
 	text-align: center;
@@ -79,5 +79,5 @@ code {
 /* FONT INSTALLATION */
 @font-face {
 	font-family: "Roman SD";
-	src: url("./fonts/Roman SD.ttf");
+	src: url("../fonts/Roman SD.ttf");
 }

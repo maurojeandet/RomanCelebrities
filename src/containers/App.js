@@ -2,26 +2,30 @@ import React from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
-import { romans } from '../romans';
+import ErrorBoundry from '../components/ErrorBoundry';
+import { connect } from 'react-redux';
+import { setSearchField } from '../actions/setSearchField';
+
+const mapStateToProps = state => {
+	return {
+		romanCelebrities: state.romanCelebrities,
+		searchField: state.searchRomans.searchField
+	}
+}
+
+const mapDispatchToProps = dispatch => {
+	return {
+		onSearchChange: (event) => 
+			dispatch(setSearchField(event.target.value)),
+	}
+}
 
 class App extends React.Component {
-	constructor() {
-		super()
-		this.state = {
-			romans: romans,
-			searchfield: ''
-		}
-	}
-
-	onSearchChange = (event) => {
-		this.setState({ searchfield: event.target.value })
-	}
-
 	render() {
-		const { romans, searchfield } = this.state;
-		const filteredRomans = romans.filter(roman => {
+		const { romanCelebrities, searchField, onSearchChange } = this.props;
+		const filteredRomans = romanCelebrities.romans.filter(roman => {
 			return roman.name.toLowerCase()
-				.includes(searchfield.toLowerCase());
+				.includes(searchField.toLowerCase());
 		})
 
 		return (
@@ -31,14 +35,16 @@ class App extends React.Component {
 				</h1>
 				<SearchBox 
 					className='roman-textbox' 
-					searchChange={this.onSearchChange} 
+					searchChange={onSearchChange} 
 				/>
 				<Scroll>
-					<CardList romans={filteredRomans} />
+					<ErrorBoundry>
+						<CardList romans={filteredRomans} />
+					</ErrorBoundry>
 				</Scroll>
 			</div>
 		)
 	}
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../containers/App.css';
 import Images from '../images/imgIndex'
 
 const Card = ({ id, name, info, image }) => {
