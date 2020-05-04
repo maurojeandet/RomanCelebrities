@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/RomanCelebrities/static/css/main.82cf8973.chunk.css",
-    "main.js": "/RomanCelebrities/static/js/main.590b4fd5.chunk.js",
-    "main.js.map": "/RomanCelebrities/static/js/main.590b4fd5.chunk.js.map",
+    "main.css": "/RomanCelebrities/static/css/main.3604ef06.chunk.css",
+    "main.js": "/RomanCelebrities/static/js/main.32f974ac.chunk.js",
+    "main.js.map": "/RomanCelebrities/static/js/main.32f974ac.chunk.js.map",
     "runtime-main.js": "/RomanCelebrities/static/js/runtime-main.d97e910f.js",
     "runtime-main.js.map": "/RomanCelebrities/static/js/runtime-main.d97e910f.js.map",
-    "static/js/2.9ab4bbfd.chunk.js": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js",
-    "static/js/2.9ab4bbfd.chunk.js.map": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js.map",
+    "static/js/2.c8659118.chunk.js": "/RomanCelebrities/static/js/2.c8659118.chunk.js",
+    "static/js/2.c8659118.chunk.js.map": "/RomanCelebrities/static/js/2.c8659118.chunk.js.map",
     "index.html": "/RomanCelebrities/index.html",
-    "precache-manifest.2d2b098177071f8dcc0191c0bfee0462.js": "/RomanCelebrities/precache-manifest.2d2b098177071f8dcc0191c0bfee0462.js",
+    "precache-manifest.ed9b6e109879847c50550f30c83fe386.js": "/RomanCelebrities/precache-manifest.ed9b6e109879847c50550f30c83fe386.js",
     "service-worker.js": "/RomanCelebrities/service-worker.js",
-    "static/css/main.82cf8973.chunk.css.map": "/RomanCelebrities/static/css/main.82cf8973.chunk.css.map",
-    "static/js/2.9ab4bbfd.chunk.js.LICENSE.txt": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/RomanCelebrities/static/media/papyrus.23918ba2.png",
+    "static/css/main.3604ef06.chunk.css.map": "/RomanCelebrities/static/css/main.3604ef06.chunk.css.map",
+    "static/js/2.c8659118.chunk.js.LICENSE.txt": "/RomanCelebrities/static/js/2.c8659118.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/RomanCelebrities/static/media/papyrus.23918ba2.png",
     "static/media/antoninus_pius.png": "/RomanCelebrities/static/media/antoninus_pius.97f30d3b.png",
     "static/media/carcalla.png": "/RomanCelebrities/static/media/carcalla.5c43258f.png",
     "static/media/julius_caesar.png": "/RomanCelebrities/static/media/julius_caesar.e605b6ca.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d97e910f.js",
-    "static/js/2.9ab4bbfd.chunk.js",
-    "static/css/main.82cf8973.chunk.css",
-    "static/js/main.590b4fd5.chunk.js"
+    "static/js/2.c8659118.chunk.js",
+    "static/css/main.3604ef06.chunk.css",
+    "static/js/main.32f974ac.chunk.js"
   ]
 }

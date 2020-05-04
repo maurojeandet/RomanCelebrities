@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ed21c5d1c8b298913f9a6ee3304813e",
+    "revision": "8565ad90c5060b3f599051e0f7914810",
     "url": "/RomanCelebrities/index.html"
   },
   {
-    "revision": "d65122517b901986cc12",
-    "url": "/RomanCelebrities/static/css/main.82cf8973.chunk.css"
+    "revision": "4a22dc2db109bba59fe2",
+    "url": "/RomanCelebrities/static/css/main.3604ef06.chunk.css"
   },
   {
-    "revision": "c7f6f659874c0167ab1c",
-    "url": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js"
+    "revision": "58b366ca4fd55614cf60",
+    "url": "/RomanCelebrities/static/js/2.c8659118.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/RomanCelebrities/static/js/2.9ab4bbfd.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/RomanCelebrities/static/js/2.c8659118.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d65122517b901986cc12",
-    "url": "/RomanCelebrities/static/js/main.590b4fd5.chunk.js"
+    "revision": "4a22dc2db109bba59fe2",
+    "url": "/RomanCelebrities/static/js/main.32f974ac.chunk.js"
   },
   {
     "revision": "b1f398804ca4ce44b8ed",

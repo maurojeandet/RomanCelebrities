@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RomanCelebrities/precache-manifest.2d2b098177071f8dcc0191c0bfee0462.js"
+  "/RomanCelebrities/precache-manifest.ed9b6e109879847c50550f30c83fe386.js"
 );
 
 self.addEventListener('message', (event) => {
