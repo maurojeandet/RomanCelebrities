@@ -8,7 +8,7 @@ import { setSearchField } from '../actions/setSearchField';
 
 const mapStateToProps = state => {
 	return {
-		romanCelebrities: state.romanCelebrities,
+		romanCelebrities: state.romanCelebrities.romans,
 		searchField: state.searchRomans.searchField
 	}
 }
@@ -23,7 +23,7 @@ const mapDispatchToProps = dispatch => {
 class App extends React.Component {
 	render() {
 		const { romanCelebrities, searchField, onSearchChange } = this.props;
-		const filteredRomans = romanCelebrities.romans.filter(roman => {
+		const filteredRomans = romanCelebrities.filter(roman => {
 			return roman.name.toLowerCase()
 				.includes(searchField.toLowerCase());
 		})
